@@ -1,0 +1,16 @@
+Multithreaded DNS resolver
+To make:
+
+    $ make all
+
+To run:
+
+    $ ./multi-lookup < # requester threads > < # resolver threads > < input files > < output file >
+
+Example:
+    
+    $ ./multi-lookup 2 2 names1.txt names2.txt results.txt
+
+make clean
+
+    $ make clean
